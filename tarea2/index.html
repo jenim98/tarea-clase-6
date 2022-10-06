@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor">
+        <form onsubmit="return false"">
+            <label>¿Cuántos miembros de tu familia trabajan?</label>
+            <input type="number" id="trabajadores">
+            <input type="submit" id="boton-trabajadores">
+            <input type="reset" value="Borrar todo" id="borrar">
+        </form><br>
+    
+        <div id="nuevo-formulario">
+            <form onsubmit="return false" id="form">
+            
+            </form>
+        
+            <p id="mayor"></p>
+            <p id="menor"></p>
+            <p id="promedio"></p>
+            <p id="promedio-mensual"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
